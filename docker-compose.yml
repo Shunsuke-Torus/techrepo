@@ -1,0 +1,10 @@
+version: '3'
+services:
+  platex2e_tecrep:
+    build: 
+      context: .
+      dockerfile: Dockerfile
+    container_name: platex2e_container
+    volumes:
+      - ./tex:/workspace/tex
+    tty: true

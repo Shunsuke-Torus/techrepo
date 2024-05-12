@@ -1,0 +1,10 @@
+ieicej3.3N
+.profile
+.gitconfig
+.bashrc
+.vscode-server
+.ssh
+.texlive2021
+*gz
+*.dvi
+*.sty
